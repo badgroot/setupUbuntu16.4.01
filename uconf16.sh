@@ -1,27 +1,27 @@
 
 sudo su -
 apt-get update
-apt-get install git
+apt-get --yes install git
 
 echo "installing cross compilation tool chain"
 
-apt-get install libc6-armel-cross libc6-dev-armel-cross
-apt-get install binutils-arm-linux-gnueabi
-apt-get install libncurses5-dev
+apt-get --yes install libc6-armel-cross libc6-dev-armel-cross
+apt-get --yes install binutils-arm-linux-gnueabi
+apt-get --yes install libncurses5-dev
 
 #arm-linux-gnueabi tool chain
-apt-get install gcc-arm-linux-gnueabi
-apt-get install g++-arm-linux-gnueabi
+apt-get --yes install gcc-arm-linux-gnueabi
+apt-get --yes install g++-arm-linux-gnueabi
 
 #arm-linux-gnueabihf tool chain
-apt-get install gcc-arm-linux-gnueabihf
-apt-get install g++-arm-linux-gnueabihf
-apt-get install crossbuild-essential-armhf
+apt-get --yes install gcc-arm-linux-gnueabihf
+apt-get --yes install g++-arm-linux-gnueabihf
+apt-get --yes install crossbuild-essential-armhf
 
 #gtkmm glade gtk installation
-apt-get install libgtkmm-3.0-dev
-apt-get install libgtk-3-dev
-apt-get install glade
+apt-get --yes install libgtkmm-3.0-dev
+apt-get --yes install libgtk-3-dev
+apt-get --yes install glade
 
 #install sublime3
 #wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -31,7 +31,7 @@ apt-get install glade
 
 
 #cmake
-apt-get install cmake
+apt-get --yes install cmake 
 
 #install apache2
 apt-get --yes install apache2
@@ -55,10 +55,10 @@ apt-get --yes install libcurl4-gnutls-dev
 apt-get --yes install libudev-dev
 
 #uuid-dev
-apt-get install uuid-dev
+apt-get --yes install uuid-dev 
 
 #jsoncpp-dev
-apt-get install libjsoncpp-dev
+apt-get --yes install libjsoncpp-dev 
 
 #ros installation setup
 
