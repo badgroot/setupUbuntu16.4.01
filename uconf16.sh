@@ -88,6 +88,8 @@ sudo apt-get install libbluetooth-dev
 sudo apt-get install qtcreator
 sudo apt-get install build-essential libgl1-mesa-dev
 
+#install glade
+sudo apt-get install glade
 
 apt-get --yes install ubuntu-restricted-extras
 
