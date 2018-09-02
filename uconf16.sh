@@ -78,6 +78,16 @@ apt-get --yes install libjsoncpp-dev
 #  CMake​Snippets 
 #
 
+#install ssldev
+sudo apt-get install libssl-dev
+
+#install libbluetooth-dev
+sudo apt-get install libbluetooth-dev
+
+#install qt_creator on ubuntu
+sudo apt-get install qtcreator
+sudo apt-get install build-essential libgl1-mesa-dev
+
 
 apt-get --yes install ubuntu-restricted-extras
 
