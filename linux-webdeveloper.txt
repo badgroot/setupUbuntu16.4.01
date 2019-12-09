@@ -1,0 +1,54 @@
+===============================+++++++++===================================================+++++++===================
+Document: This Document gives the details. How to setup the web-development on a local system.
+Topics .
+1. Xampp server with php mysql
+2. Nodejs for js frameworks.
+==================================+++============================================================+++++++++++==========
+
+
+
+
+1.                                                 Php setup.
+
+=======================================================================================================================
+Refrence: [ https://vitux.com/how-to-install-xampp-on-your-ubuntu-18-04-lts-system/ ]
+step 1. go to https://www.apachefriends.org/index.html
+step 2. Download the installation package for linux and windows.
+step 3. go to cd /home/$USER/Downloads
+step 4. chmod +x xampp-linux-*.run
+step 5. sudo ./xampp-linux-*.run
+step 6. do next and next until go get finish 
+step 7. go to browser and enter http://localhost/
+
+
+step 8. start from command line
+	$ sudo /opt/lampp/lampp start
+
+step 9. auto start on bootup setup.
+	$ sudo gedit /etc/init.d/lampp and paste below
+	================================================
+			#!/bin/bash
+			/opt/lampp/lampp start
+	================================================
+	 # save and exit.
+		$  sudo chmod +x /etc/init.d/lampp # give permission
+	 Use update-rc.d to install init scripts to all runlevel by typing
+	  $ sudo update-rc.d lampp defaults
+
+step 10. changing permission for user to read write:
+	$ sudo chown -R $USER:$USER /opt/lampp
+
+Thankyou !!!!
+=======================================================================================================================
+
+
+
+Nodejs Setup
+=======================================================================================================================
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+Refrence: [https://stackabuse.com/how-to-install-node-js-on-ubuntu/]
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+=======================================================================================================================
